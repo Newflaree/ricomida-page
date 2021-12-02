@@ -3,6 +3,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 /* Fonts */
 
+/* Variables */
+:root {
+  --main-color: #373a3c;
+  --border-color: #ddd;
+  --black-color: #000;
+  --white-color: #fff;
+  --second-color: #dc3545;
+}
+/* Variables */
+
+/* Colors */
+.custom-main-color {
+  background-color: var( --main-color );
+}
+
+.custom-border-color {
+  background-color: var( --border-color );
+}
+
+.custom-black-color {
+  background-color: var( --black-color );
+}
+
+.custom-white-color {
+  background-color: var( --white-color );
+}
+
+.custom-second-color {
+  background-color: var( --second-color );
+}
+/* Colors */
+
 /* General Styles */
 body {
   font-family: 'Cabin', sans-serif;
